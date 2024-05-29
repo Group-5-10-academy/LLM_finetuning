@@ -3,9 +3,9 @@
 Enabling Quality Embedding and Text Generation for Amharic Language
 
 <h3>Directories</h3> 
-fine tuning
-models
-notebooks
-scripts
-    data_scrapping
-    data_processing
+<br>fine tuning</br>
+<br>models<br>
+<br>notebooks<br>
+<br>scripts<br>
+    &nbsp<br>data_scrapping<br>
+    &nbsp<br>data_processing<br>
