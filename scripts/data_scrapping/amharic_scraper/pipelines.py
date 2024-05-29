@@ -33,3 +33,5 @@ class AmharicScraperPipeline:
             self.connection.commit()
         except Exception as e:
             print(f"Failed to insert item into database: {e}")
+            self.connection.rollback()  # Rollback in case of error
+        return item
