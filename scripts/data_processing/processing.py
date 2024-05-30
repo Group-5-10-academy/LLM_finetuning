@@ -150,6 +150,7 @@ class normalize(object):
                     geez+='፼'
 
         return geez
+    
     def getExpandedNumber(self,number):
         if '.' not in str(number):
             return arabic2geez(number)
