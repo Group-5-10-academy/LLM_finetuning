@@ -5,17 +5,18 @@ Enabling Quality Embedding and Text Generation for Amharic Language
 We finetuned Amharic language pretrained model from GARI Logstics.
 
 <h3>Instructions</h3>
-<li>1.Accept Llama2 license on huggingface and download it like this:
-<li>git lfs install<li>
+1.Accept Llama2 license on huggingface and download it like this:
+<li>git lfs install</li>
 <li>git clone https://huggingface.co/meta-llama/Llama-2-7b-hf [if you don't have access to meta-llama replace with https://huggingface.co/NousResearch/Nous-Hermes-llama-2-7b]</li>
-<li> 2. Download the amharic finetune from huggingface like this:</li>
+2. Download the amharic finetune from huggingface like this:
 <li>git lfs install<li>
 <li>git clone https://huggingface.co/iocuydi/llama-2-amharic-3784m</li>
-<li>3. Clone this github repository</li>
-<li>4. Then inside inference/run_inf.py:</li>
+3. Clone this github repository
+4. Then inside inference/run_inf.py:
 <li>comment the import safety_utils line</li>
 <li>change the MAIN_PATH to the path to folder you downloaded from step 1</li>
 <li>change the peft_model to the path you cloned in the step 2</li>
 <li>Go to your llama2 folder(from step 1) and replace the tokenizer.model file with the one you find from the 2nd step</li>
 <li>set quanitzation=True inside the main function before the load_model function call</li>
-<li>5. Finally run the inference/run_inf.py file</li>
+5. Finally run the inference/run_inf.py file
+
