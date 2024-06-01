@@ -9,7 +9,7 @@ We finetuned Amharic language pretrained model from GARI Logstics.
 <li>git lfs install</li>
 <li>git clone https://huggingface.co/meta-llama/Llama-2-7b-hf [if you don't have access to meta-llama replace with https://huggingface.co/NousResearch/Nous-Hermes-llama-2-7b]</li>
 2. Download the amharic finetune from huggingface like this:
-<li>git lfs install<li>
+<li>git lfs install</li>
 <li>git clone https://huggingface.co/iocuydi/llama-2-amharic-3784m</li>
 3. Clone this github repository
 4. Then inside inference/run_inf.py:
